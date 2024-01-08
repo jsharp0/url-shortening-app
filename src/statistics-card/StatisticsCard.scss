@@ -1,0 +1,26 @@
+.statistics-card {
+  background-color: white;
+  border-radius: 0.3125rem;
+  padding: 2.5rem 2rem;
+  max-width: 21.875rem;
+  height: 16.6875rem;
+
+  .icon-container {
+    border-radius: 100%;
+    width: fit-content;
+    padding: 1rem;
+    margin-top: -75px;
+  }
+}
+
+@media (min-width: 992px) {
+  .icon-container {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .icon-container {
+    margin-left: 100px;
+  }
+}

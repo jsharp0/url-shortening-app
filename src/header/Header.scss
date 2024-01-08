@@ -1,0 +1,14 @@
+.header {
+  background-color: white;
+}
+@media (min-width: 992px) {
+  .header {
+    padding: 3rem 7rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .header {
+    padding: 2.5rem 1.5rem;
+  }
+}

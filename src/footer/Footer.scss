@@ -1,0 +1,25 @@
+@import url('../custom.scss');
+
+.footer {
+  .logo {
+    width: 120px;
+  }
+  li a {
+    line-height: 2rem;
+    text-decoration: none;
+
+    &:hover {
+      color: #2bd0d0 !important;
+    }
+  }
+
+  .icons {
+    max-width: 10.5rem;
+    display: flex;
+    justify-content: space-between;
+
+    img {
+      align-self: center;
+    }
+  }
+}

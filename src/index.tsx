@@ -1,15 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './index.scss';
 import App from './App';
+import Footer from './footer/Footer';
 import reportWebVitals from './reportWebVitals';
+import './custom.scss';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import Header from './header/Header';
+import { LinkShortener } from './link-shortener/LinkShortener';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
+    <Header />
+    <LinkShortener />
     <App />
+    <Footer />
   </React.StrictMode>
 );
 

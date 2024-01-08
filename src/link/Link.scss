@@ -1,0 +1,19 @@
+.link {
+  background-color: white;
+  border-radius: 0.3125rem;
+  //   padding: 1rem 1.5rem;
+
+  .full-link {
+    color: #34313d;
+  }
+  .link-primary {
+    margin-right: 1.5rem;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 768px) {
+  .link .border-bottom {
+    border-bottom: none !important;
+  }
+}
